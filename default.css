@@ -1,0 +1,19 @@
+h1,h2,h3,h4,h5,h6,p,body {
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: helvetica,arial,sans-serif;
+        }
+        p {
+            color: #444;
+            line-height: 1.5;
+        }
+        .clearfix::after {
+            content: "";
+            display: block;
+            clear: both;
+        }
+        .full {
+            width: 100%;
+        }
